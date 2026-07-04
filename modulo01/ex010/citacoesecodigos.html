@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Citações e Códigos</title>
+</head>
+<body>
+    <h2>Código Fonte/Pré-Formatado</h2>
+    <hr>
+    <p>
+        O comando document.getElemrntById('teste') pertence à linguagem JavaScript, escrito dessa forma cada uma das letras utilizadas ocupam espaços de tamanhos diferentes, resolvemos essa situação dessa forma: <br> colocando entre a tag &lt code &gt  &lt /code &gt  document.getElementById('teste'). Ficando <mark>&lt code &gt document.getElementById('teste') &lt /code &gt</mark> para obtermos o resultado abaixo: <br> <code>document.getElementById('teste')</code>
+    </p>
+    <p>
+        Mas a tag &lt code &gt &lt /code &gt não cria identação usadas em outras linguagens como no python por exemplo para obtermos uma exibição em modelo de identação precisamos colocarmos todo o comando inclusive a tag &lt code &gt &lt /code &gt dentro de uma outra tag a &lt pre &gt &lt /pre &gt <br>
+        <pre>
+            <code>
+    num = int(input('digite um número'))
+    if num % 2 == 0:
+        print(f'o número {num} é PAR)
+    else:
+        print(f'o número {num} é ÍMPAR)
+    print('Fim do Programa')
+            </code>
+        </pre>
+    </p>
+    <h2>Citações</h2>
+    <hr>
+    <p>
+         Como diria um pai de um amigo o computador é um burro muito rápido. Por ser uma citação simples sem quebra de linha precisa ser envolvido por aspas<br> e para isso utilizaremos a tag &lt q &gt &lt /q &gt, dessa maneira:<mark> &lt q &gt o computador é um burro muito rápido &lt /q &gt</mark> chegando a esse resultado <q>o computador é um burro muito rápido</q> 
+    </p>
+    <h2>Citações Completas</h2>
+    <hr>
+    <p>
+        Segundo Elizabeth Castro em seu livro HTML for the World Wide Web:
+    </p>
+    <blockquote cite="https://www.google.com.br/books/edition/HTML_for_the_World_Wide_Web/Dq9L3KkDOFIC?hl=pt-BR&gbpv=1&dq=html&pg=PT6&printsec=frontcover">
+        There are two principal ways for yours visitors to get from one card to another. You can either create links within the page, or you can assign functions to a mobile device's button 
+    </blockquote>
+    <p>
+        Para conseguirmos esse resultado nesse tipo de citação colocamos a frase a ser citada entre a tag &lt bloquote <em>cite= "URL da citação livro ou artigo"</em> &gt &lt /bloquote &gt e adicionamos um parametro à tag para que sejam respeitados e atribuídos aos mecanismos de busca dos sites os direitos autorais do autor original da citação.
+    </p>
+    <h2>Abreviações</h2>
+    <hr>
+    <p>
+        Estou retomando os estudos sobre <abbr title="Hiper Text Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Preciso me aprofundar!!<br>Nesse tema usaremos a tag &lt abbr &gt &lt /abbr &gt, que será responsável pelo resultado obtido quando passamos o mouse por cima das abreviações: <abbr title="Hiper Text Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr> 
+    </p>
+</body>
+</html>
