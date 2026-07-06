@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Listas</title>
+</head>
+<body>
+    <h1>Trabalhando com listas</h1>
+    <h2>Listas Ordenadas</h2>
+    <hr>
+    <p>
+        São listas criadas com uma ordem ou sequência a ser seguida, e são criadas com a tag &lt ol &gt &lt /ol &gt, que indicará uma lista ordenada e dentro desta tag serão inclusos itens que por sua vez ficarão entre a tag &lt li &gt &lt /li &gt. <br> Sendo uma tag "ol" para a lista toda e uma tag "li" para cada item da lista. A parte final da tag (o seu fechamento) &lt /li &gt a partir do HTML5, passou a ser opcional, não sendo necessário sua inclusão.
+    </p>
+    <p>
+        Exemplos de listas ordenadas:
+    </p>
+    <ol>
+        <li>Acordar</li>
+        <li>Escovar os dentes</li>
+        <li>Tomar café</li>
+        <li>Ir trabalhar</li>
+    </ol>
+    <p>
+        Podemos também adicionar parmetros para a ista ordenada dentro da tag "ol"<br>&lt ol <em>type= A</em> &gt &lt /ol &gt alterando os índices da lista de números para letras 
+    </p>
+    <ol type="A">
+        <li>Acordar</li>
+        <li>Escovar os dentes</li>
+        <li>Tomar café</li>
+        <li>Ir trabalhar</li>
+    </ol>
+    <p>
+        Se o parâmetro for o numeral "1" a lista fica com os índices originais, se for a letra "A" maiúscula como o exemplo os índices serão letras maiúsculas, se forem letras minúsculas eles mudarão para letras minúsculas também <br> os parâmetros "I" e "i" respectivamente se referem a numerais romanos
+    </p>
+    <ol type="I">
+       <li>Acordar</li>
+        <li>Escovar os dentes</li>
+        <li>Tomar café</li>
+        <li>Ir trabalhar</li> 
+    </ol>
+    <ol type="i">
+       <li>Acordar</li>
+        <li>Escovar os dentes</li>
+        <li>Tomar café</li>
+        <li>Ir trabalhar</li> 
+    </ol>
+    <h2>Listas não ordenadas</h2>
+    <hr>
+    <p>
+        Como o próprio nome já diz são listas que não precisa seguir uma sequência ou ordem como por exemplo lista de compras <br> e são criadas com a tag &lt ul &gt &lt /ul &gt, para a tipificação da lista e a tag &lt li &gt &lt /li &gt para os itens da lista.
+    </p>
+    <ul>
+        <li>pão</li>
+        <li>leite</li>
+        <li>açúcar</li>
+        <li>café</li>
+        <li>margarina</li>
+    </ul>
+    <p>
+        Como na listas ordenadas nas não ordenadas também podemos alterar o formato dos índices acrescentando no parâmetro "type" uma das opções: disc, circle ou square, sendo disc o formato padrão sendo desnecessário informá-lo se for a opção desejada 
+    </p>
+    <ul type="circle">
+        <li>pão</li>
+        <li>leite</li>
+        <li>açúcar</li>
+        <li>café</li>
+        <li>margarina</li>
+    </ul>
+     <ul type="square">
+        <li>pão</li>
+        <li>leite</li>
+        <li>açúcar</li>
+        <li>café</li>
+        <li>margarina</li>
+    </ul>
+    <p>
+        Essas listas podem ser combinadas em ordenadas e não ordenadas ou ordenadas com não ordenadas
+    </p>
+    <h2>Listas de Definições</h2>
+    <hr>
+    <p>
+        Essas listas são criadas com a tag "dl" &lt dl &gt &lt /dl &gt, e dentro dessa tag temos duas tags "dt" e "dd" &lt dt &gt &lt /dt &gt, para o termo da lista <br> e &lt dd &gt &lt /dd &gt, para a definição da lista. ex:
+    </p>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Linguagem de Marcação para a criação de conteúdos do site</dd>
+    </dl>
+    <dl>
+        <dt>CSS</dt>
+        <dd>Linguagem de Marcação para criação de design do site</dd>
+    </dl>
+    <dl>
+        <dt>JavaScript</dt>
+        <dd>Linguagem de programação de interatividade do site</dd>
+    </dl>
+    <p>
+        Material para estudo
+    </p>
+    <a href="09 - Listas HTML.pdf" download="Listas HTML.pdf" type="application/pdf">material em pdf da aula</a>
+</body>
+</html>
