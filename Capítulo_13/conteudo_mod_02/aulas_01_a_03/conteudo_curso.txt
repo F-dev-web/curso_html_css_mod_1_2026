@@ -1,0 +1,16 @@
+Psicologia das cores cada cor remete a um tipo de sentimento que é despertado inconscientemente em nosso cérebro.(veja a tabela no pdf)
+
+Formas de representar as cores no css:
+
+1ª forma: Utilizando os nomes das cores mais simples, porém mais limitada.
+ex: blue, red, yellow, gray, White, etc...
+
+2ª forma: Utilar os códigos hexadecimais.(0 1 2 3 4 5 6 7 8 9 A B C D E F)
+ex:blue= #0000ff(as cores se formam por uma combinação entre as três cores red, green, blue-RGB- onde sua formação fica caracterizada por "00" na porção de red(r), "00" na porção green(g), e ff a capacidade máxima suportada na porção blue(b), para white(branca)= #ffffff
+a capacidade máxima total de todas as cores.
+
+3ª forma Utilizar o próprio siatema RGB.- RGB(nº nº nº)onde esses números variam de 0 à 255.
+ex: blue(azul)= rgb(0, 0, 255), white(branca-presença total das cores)= rgb(255 255 255), black(preta-ausência total das cores)= rgb(0 0 0)- Esse é o sistemas utilizados em telas.
+
+4ª forma: Utilizar as características das cores-matiz(h), saturação(s) e luminosidade(l).
+ex: blue(azul) hsl(240, 100%, 50%), white(branca)= hsl(0, 0%, 100%)
